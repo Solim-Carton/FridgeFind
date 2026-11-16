@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { getRecipe } from '../services/mealApi'
+import { getRecipe } from '../services/mealapi'
 import { usePantry } from '../Context/Pantrycontext'
 
 export default function RecipeDetail() {

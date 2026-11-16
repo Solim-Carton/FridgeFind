@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { searchByIngredients } from '../services/mealApi'
+import { searchByIngredients } from '../services/mealapi'
 
 export default function Results() {
   const [params] = useSearchParams()
